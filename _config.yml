@@ -4,4 +4,4 @@ description: an adamant data story
 show_downloads: True
 navigation:
   - title: example
-    url: example
+    url: example.md
