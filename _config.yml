@@ -1,7 +1,9 @@
 theme: jekyll-theme-minimal
-title: ADA Wikispeedia Strategies
+title: ADA template website
 description: an adamant data story 
 show_downloads: True
 navigation:
-  - title: example
-    url: example.md
+  - title: Home
+    url: /
+  - title: Example
+    url: example
