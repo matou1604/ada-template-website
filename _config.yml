@@ -3,7 +3,5 @@ title: ADA Wikispeedia Strategies
 description: an adamant data story 
 show_downloads: True
 navigation:
-  - title: Home
-    url: /
   - title: example
     url: example
