@@ -1,9 +1,20 @@
-# ADA Template Website
-## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
-3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
-4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
-**Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
-5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
+### Let's play a little game...
+
+D'autres accroches
+Mais comment vous comparez vous à! 
+Comment evaluer votre performance! 
+Etes cous un bon joueur 
+Qu'est ce qui vous a mener à faire ces choix:
+
+### Découvrons le ensemble...
+
+## Analyzing player strategies in the Wikispeedia game and assessing correlations with semantic content
+
+The Wikispeedia dataset provides a rich set of player navigation paths within Wikipedia’s graph. By leveraging those paths, it has been proposed to use these player-created features to derive semantic distance between articles. In the following, we aim to validate this approach by finding how player behaviors in-game can be described quantitatively by newly derived features, and assessing how these variables relate to semantic content. To achieve this, we will:
+
+- Extract several features that aim to quantify player behavior
+- Create a ranking based on these and perform clustering to validate that we achieve a meaningful set of latent variables for player paths
+- Iteratively select and refine features based on their contribution to the clustering
+- Compare them to BERT scores of articles pairs to see whether they correlate with semantic content and if better players retain this semantic content in their paths or overfit Wikipedia’s underlying structure instead.
+
+&copy; 2023 DataStory. All rights reserved.
