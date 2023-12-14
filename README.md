@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 ### Let's play a little game...
 
 D'autres accroches
